@@ -1,0 +1,41 @@
+cdrom
+reproducción
+
+cursors
+cargar imágenes del cursor, incluye cursores estándar
+
+display
+controlar la ventana o pantalla de visualización
+
+draw
+dibujar formas simples en una superficie
+
+event
+gestionar eventos y la cola de eventos
+
+font
+crear y renderizar fuentes TrueType
+
+image
+guardar y cargar imágenes
+
+joystick
+gestionar dispositivos de joystick
+
+key
+administrar el teclado
+
+mouse
+manejar el mouse
+
+sndarray
+manipular sonidos con numpy
+
+surfarray
+manipular imágenes con numpy
+
+time
+controlar el tiempo
+
+transform
+escalar, rotar y voltear imágenes
