@@ -20,6 +20,9 @@ size = (800, 500) # ancho, alto
 # la ventana
 screen = pygame.display.set_mode(size)
 
+# esta funcion controla los FPS
+clock = pygame.time.Clock()
+
 # bucle principal
 while True:
     # registro de eventos del juego
@@ -31,3 +34,6 @@ while True:
 
     # acualizacion de la pantalla 
     pygame.display.flip()
+
+     # ajustamos a 20 FPS el juego
+    clock.tick(60)

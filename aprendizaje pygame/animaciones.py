@@ -38,12 +38,18 @@ while True:
             sys.exit()
 
         # esta funcion evita que nuestra animacion salga de la pantalla
-        if (cord_x > screen)
+        if (cord_x > 800 or cord_x < 0):
+            speed_x *= -1
+        
+        if (cord_y > 800 or cord_y < 0):
+            speed_y *= -1
+
         
     # a partir de esta identacion se continua el juego
 
     # le sumamos la velocidada a la cordenada X
     cord_x += speed_x
+    cord_y += speed_y
 
     screen.fill(WHITE)
     # zona de dibujo
