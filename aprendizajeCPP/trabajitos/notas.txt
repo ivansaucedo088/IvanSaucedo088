@@ -1,0 +1,10 @@
++++++++ notas +++++++
+
+1.- en C++ hay diviciones enteras y flotantes por ejemplo:
+
+7/3 no sera igual a 2.3333333333 etc
+sino que sera igual a 2
+
+en el caso de 7.0 / 3, si dara 2.3333333
+
+2.- C++ respeta la jeraquia de operaciones
