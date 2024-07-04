@@ -135,12 +135,12 @@ concesionario.vender_coche(coche1, dueño1)
 concesionario.vender_coche(coche2, dueño2)
 
 concesionario.mostrar_inventario()
+
 concesionario.mostrar_clientes()
 
 # Usar métodos de las clases originales y mostrar la composición
 dueño1.rentar_carros(coche1)
 dueño2.vender_carros(coche2)
-
 print("\nDemostrando la composición:")
 coche3.arrancar()
 coche3.mostrar_info()
